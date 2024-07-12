@@ -1,0 +1,113 @@
+.user-buttons {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.button-1-style{
+    color: black;
+    border: 1px solid #28ADE3;
+    background-color: #28ADE3;
+    border-radius: 25px;
+    padding:10px 40px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+    margin-left: 30px;
+}
+
+.button-1-style:hover{
+  background-color: #2898e3;
+}
+
+.button-2-style{
+    color: color;
+    border: 1px solid #D9EEE1;
+    background-color: #D9EEE1;
+    border-radius: 25px;
+    padding:10px 40px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+}
+.button-2-style:hover{
+  background-color: #c6dace;
+}
+
+
+.position-button {
+    position: relative;
+    right: 900px;
+}
+
+.image-size{
+    max-width:100px;
+    max-height: 100px;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+
+.main-home {
+  display:grid;
+  align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+   column-gap: 60px;
+}
+
+  .input-wrapper {
+    position: relative;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .input-style {
+    padding-left: 30px;
+    width: 200px;
+  }
+
+
+  .feed-buttons {
+border: none;
+display: grid;
+align-self: center;
+grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .custom-buttons {
+font-weight: 700;
+font-family: sans-serif;
+border: none;
+background: none;
+box-sizing: border-box;
+padding: 4px 0 5px 0;
+width: fit-content;
+border-bottom: 2px solid transparent; 
+transition: border-bottom 0.3s ease;
+margin-left: 50px;
+  }
+
+  .custom-buttons:hover {
+    border-bottom: 2px solid #28ADE3;
+  }
+
+  .mother-container {
+    display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 0.5px solid #84888a;
+  background-color: white;
+  }

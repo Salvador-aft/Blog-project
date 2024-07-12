@@ -1,0 +1,16 @@
+.title-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr auto;
+    margin-top: 130px;
+    margin-left:30px;
+}
+
+.title-div{
+}
+
+.icon-div{
+    justify-self: end;
+    margin-right: 75px;
+    font-size: 35px;
+}
